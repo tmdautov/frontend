@@ -4,7 +4,7 @@
     - функцию привязать к кнопке button
     - данные будут приниматься с input=text
 */
-
+<script>
 function upload_data_to_server(var url, var data) {
     $.ajax({
        type: 'POST',
@@ -15,7 +15,7 @@ function upload_data_to_server(var url, var data) {
        }
     });
 }
-
+</script>
 
 <button onclick="upload_data_to_server">
     click
