@@ -15,3 +15,8 @@ function upload_data_to_server(var url, var data) {
        }
     });
 }
+
+
+<button onclick="upload_data_to_server">
+    click
+</button>
