@@ -4,9 +4,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.js"></script>
   </head>
   <body>
+    
     <div ng-controller="MyController">
       <h1>Hello {{ clock }}!</h1>
     </div>
+    
+    
     <script type="text/javascript">
       function MyController($scope) {
         $scope.clock = new Date();
@@ -19,5 +22,6 @@
         updateClock();
       };
     </script>
+    
   </body>
 </html>
